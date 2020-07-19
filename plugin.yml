@@ -1,0 +1,37 @@
+name: ServerCore
+main: ServerCore\Main
+version: 1.0.0
+api: [3.0.0, 4.0.0, 5.0.0]
+
+author: Skaizera
+description: Core plugin for MCPE servers which includes some basic essential commands
+website: n/a
+
+commands:
+ servercore:
+  description: "ServerCore Informations"
+  usage: /servercore
+ ci:
+  description: "Clear Inventory"
+  permission: servercore.ci
+  usage: /ci
+ fly:
+  description: "Flying in Survival Mode"
+  permission: servercore.fly
+  usage: /fly
+ vanish:
+  description: "Invisible mode for OP players"
+  permission: servercore.vanish
+  usage: /vanish
+ heal:
+  description: "Heal yourself with this command"
+  permission: "servercore.heal"
+  usage: "/heal"
+ spawn:
+  description: "Teleport to spawn"
+  permission: "servercore.spawn"
+  usage: /spawn
+ vcore:
+  description: "Version Informations"
+  usage: /version
+  
